@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Health Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="header">
+    <div class="logo">Good Health Portal</div>
+    <div class="info">
+      <div>Patient ID: A001</div>
+      <div>Date: 08-06-2025</div>
+    </div>
+  </div>
+
+  <h2>Hi John, Welcome to your Health Portal!</h2>
+
+  <div class="dashboard">
+    <div class="card">
+      <h3>Appointment</h3>
+      <p>Doctor: Dr. Ramesh</p>
+      <p>Date: 8/8/2025</p>
+      <p>Time: 1:30PM</p>
+    </div>
+
+    <div class="card">
+      <h3>Current Medications</h3>
+      <ul>
+        <li>Tylenol</li>
+        <li>Motrin</li>
+        <li>Digoxin</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>Lab Results</h3>
+      <p>Blood Pressure: 120/80</p>
+      
+
+      <p>Temperature: 98.6°F</p>
+    </div>
+
+    <div class="card heart-rate">
+      <h3>Pulse Rate</h3>
+      <div id="heartRateDisplay">102 BPM</div>
+      <div class="red-light" id="alertLight"></div>
+    </div>
+
+    <div class="card">
+      <h3>Patient Balance</h3>
+      <p>Current Balance: $90</p>
+      <p>Last Payment: $25 on 08/01/25</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
